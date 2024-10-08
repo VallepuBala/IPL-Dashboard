@@ -1,0 +1,49 @@
+.latest-match-container {
+  background-color: #ffffff33;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+  color: #ffffff;
+}
+
+.latest-match-heading {
+  font-family: 'Bree Serif';
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.latest-match-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-info {
+  flex-grow: 1;
+}
+
+.team-name,
+.match-date,
+.match-venue,
+.match-result,
+.match-innings {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.team-logo-container {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+.team-logo {
+  width: 100px;
+}
+
+.match-info {
+  flex-grow: 1;
+}
+
+.match-info-text {
+  margin: 5px 0;
+}

@@ -1,0 +1,24 @@
+.team-card {
+  margin: 10px;
+  text-align: center;
+  background-color: #ffffff33;
+  padding: 20px;
+  border-radius: 10px;
+  width: 150px;
+  transition: transform 0.3s ease;
+}
+
+.team-card:hover {
+  transform: scale(1.05);
+}
+
+.team-logo {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.team-name {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Bree Serif';
+}
